@@ -2,7 +2,7 @@
 
 A high-performance financial matching engine built in Java, designed to simulate the core infrastructure of modern stock and cryptocurrency exchanges. This engine processes bids and asks in real-time, executing trades based on price priority.
 
-## 🏗 System Architecture
+## System Architecture
 
 The core routing logic relies on two opposing **Priority Queues (Heaps)** to maintain a perfectly sorted state of the market without requiring full-array iterations:
 
